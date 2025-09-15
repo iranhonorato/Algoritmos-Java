@@ -5,6 +5,7 @@ import java.util.Arrays;
 import binarySearch.BinarySearch;
 import bubbleSort.BubbleSort;
 import noRepetition.NoRepetition;
+import recursividade.Recursividade;
 import selectionSort.SelectionSort;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -32,5 +33,14 @@ public class Main {
         int[] C = {1,6,10,11,12,13,14,15,16,19,19,19,20,100,125,132,400};
         int resultBinarySearch = binarySearch.BinarySeacrhFunction(C,19);
         System.out.println("Binary Search Algorithm: " + resultBinarySearch);
+
+
+        Recursividade fatorial  = new Recursividade();
+        double fatorialResult = fatorial.fatorial(5);
+        System.out.println("Fatorial Algorithm: " + fatorialResult);
+
+        Recursividade fibonacci =  new Recursividade();
+        double fibonacciResult = fibonacci.fibonacci(7);
+        System.out.println("Fibonacci Algorithm: " + fibonacciResult);
     }
 }
