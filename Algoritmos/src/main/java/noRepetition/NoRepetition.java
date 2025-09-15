@@ -1,6 +1,4 @@
-package NoRepetition;
-
-import java.lang.reflect.Array;
+package noRepetition;
 
 public class NoRepetition {
     public int[] NoRepetitionFunction(int[] A,  int[] AClear) {

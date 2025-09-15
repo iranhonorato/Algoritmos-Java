@@ -1,6 +1,4 @@
-package SelectionSort;
-
-import java.util.ArrayList;
+package selectionSort;
 
 public class SelectionSort {
     public int[] SelectionSortFunction(int[] A) {

@@ -1,4 +1,4 @@
-package BubbleSort;
+package bubbleSort;
 
 public class BubbleSort {
     public int[] BubbleSortFunction(int[] A) {

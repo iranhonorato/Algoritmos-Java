@@ -1,11 +1,11 @@
 package org.example;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-import BubbleSort.BubbleSort;
-import NoRepetition.NoRepetition;
-import SelectionSort.SelectionSort;
+import binarySearch.BinarySearch;
+import bubbleSort.BubbleSort;
+import noRepetition.NoRepetition;
+import selectionSort.SelectionSort;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -27,5 +27,10 @@ public class Main {
         int[] BClear = new int[4];
         int[] resultNR = nr.NoRepetitionFunction(B, BClear);
         System.out.println("No Repetition on array: " + Arrays.toString(resultNR));
+
+        BinarySearch binarySearch = new BinarySearch();
+        int[] C = {1,6,10,11,12,13,14,15,16,19,19,19,20,100,125,132,400};
+        int resultBinarySearch = binarySearch.BinarySeacrhFunction(C,19);
+        System.out.println("Binary Search Algorithm: " + resultBinarySearch);
     }
 }
