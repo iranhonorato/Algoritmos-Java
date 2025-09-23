@@ -16,5 +16,6 @@ public class Main {
         System.out.println("Busca binária: " + algoritmo.binarySearch(orderedArray,11));
         System.out.println("Bubble sort: " + Arrays.toString(algoritmo.bubbleSort(unOrderedArray)));
         System.out.println("Selection sort: " + Arrays.toString(algoritmo.selectionSort(unOrderedArray)));
+        System.out.println("Quick sort: " + Arrays.toString(algoritmo.quickSort(unOrderedArray, 0, unOrderedArray.length)));
         }
     }

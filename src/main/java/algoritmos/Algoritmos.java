@@ -60,4 +60,33 @@ public class Algoritmos {
         return A;
     }
 
+
+    public int particiona(int[] A, int left, int right) {
+        int lp = left;
+        int pivo = A[left];
+        int count = left + 1;
+        while (count < right) {
+            if (A[count] < pivo) {
+                lp ++;
+                int aux = A[count];
+                A[count] = A[lp];
+                A[lp] = aux;
+            }
+            count ++;
+        }
+        int aux = A[lp];
+        A[lp] = A[left];
+        A[left] = aux;
+        return lp;
+    }
+
+    public int[] quickSort(int[] A, int left, int right) {
+        if (left < right) {
+            int lp =  particiona(A, left, right);
+            quickSort(A, left, lp);
+            quickSort(A, lp + 1, right);
+        }
+        return A;
+    }
+
 }
