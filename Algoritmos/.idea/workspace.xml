@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01624b5a-df66-4e30-93c9-2165bd9492c9" name="Changes" comment="feat(algorithm): Implementação do algoritmo de Binary Search" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iranhonorato&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iranhonorato/Algoritmos.git&quot;,
+    &quot;accountId&quot;: &quot;c66a9c58-7ce3-401c-8ef8-fbe0a6968873&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32VNG6dgzly2XFbdXPJUq04KqcI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/irani/Desktop/Personal code/Algoritmos Java/Algoritmos",
+    "onboarding.tips.debug.path": "C:/Users/irani/Desktop/Personal code/Algoritmos Java/Algoritmos/Algorithms/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01624b5a-df66-4e30-93c9-2165bd9492c9" name="Changes" comment="" />
+      <created>1757501687231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757501687231</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat(algorithm): Implementação do algoritmo de bubble sort">
+      <option name="closed" value="true" />
+      <created>1757605244746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757605244746</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(algorithm): implementação de um algoritmo que remove repetições">
+      <option name="closed" value="true" />
+      <created>1757606025359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757606025359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(algorithm): Implementação do algoritmo de Selection Sort">
+      <option name="closed" value="true" />
+      <created>1757621309999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757621309999</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(algorithm): Implementação do algoritmo de Binary Search">
+      <option name="closed" value="true" />
+      <created>1757961657383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757961657383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(algorithm): Implementação do algoritmo de bubble sort" />
+    <MESSAGE value="feat(algorithm): implementação de um algoritmo que remove repetições" />
+    <MESSAGE value="feat(algorithm): Implementação do algoritmo de Selection Sort" />
+    <MESSAGE value="feat(algorithm): Implementação do algoritmo de Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(algorithm): Implementação do algoritmo de Binary Search" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binarySearch/BinarySearch.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
