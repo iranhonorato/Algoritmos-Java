@@ -46,4 +46,18 @@ public class Algoritmos {
         return A;
     }
 
+
+    public int[] selectionSort(int[] A) {
+        for (int i = 0; i < A.length; i++) {
+            for (int j = i + 1; j < A.length; j++) {
+                if (A[i] > A[j]) {
+                    int aux = A[j];
+                    A[j] = A[i];
+                    A[i] = aux;
+                }
+            }
+        }
+        return A;
+    }
+
 }
