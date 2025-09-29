@@ -80,13 +80,13 @@ public class Algoritmos {
         return lp;
     }
 
-    public int[] quickSort(int[] A, int left, int right) {
-        if (left < right) {
+    public void quickSort(int[] A, int left, int right) {
+        if (left >= right) {
+            return;
+        }
             int lp =  particiona(A, left, right);
             quickSort(A, left, lp);
             quickSort(A, lp + 1, right);
-        }
-        return A;
     }
 
 }
