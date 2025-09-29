@@ -89,4 +89,30 @@ public class Algoritmos {
             quickSort(A, lp + 1, right);
     }
 
+    public void merge(int[] A, int[] B, int[] C) {
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while (k < C.length) {
+            if (i == A.length) {
+                C[k] = B[j];
+                j++;
+
+            } else if (j == B.length) {
+                C[k] = A[i];
+                i ++;
+
+            } else if (A[i] < B[j]) {
+                C[k] = A[i];
+                i ++;
+
+            } else {
+                C[k] = B[j];
+                j ++;
+            }
+            k++;
+        }
+    }
+
 }
