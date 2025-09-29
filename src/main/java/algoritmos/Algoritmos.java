@@ -115,4 +115,27 @@ public class Algoritmos {
         }
     }
 
+    public void mergeSort(int[] A) {
+        if (A.length <= 1) {
+            return;
+        }
+
+        int meio = A.length/2;
+        int[] leftA = new int[meio];
+        int[] rightA = new int[A.length - meio];
+
+        int count = 0;
+        while (count < A.length) {
+            if (count < meio) {
+                leftA[count] = A[count];
+            } else {
+                rightA[count - meio] = A[count];
+            }
+            count ++;
+        }
+        mergeSort(leftA);
+        mergeSort(rightA);
+        merge(leftA, rightA, A);
+    }
+
 }

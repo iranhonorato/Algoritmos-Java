@@ -20,5 +20,8 @@ public class Main {
 
         algoritmo.quickSort(unOrderedArray, 0, unOrderedArray.length);
         System.out.println("Quick sort: " + Arrays.toString(unOrderedArray));
+
+        algoritmo.mergeSort(unOrderedArray);
+        System.out.println("Merge sort: " + Arrays.toString(unOrderedArray));
         }
     }
