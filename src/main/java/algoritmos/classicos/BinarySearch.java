@@ -29,7 +29,7 @@ public class BinarySearch {
         int right = array.length - 1;
         int middle =  (left + right)/2;
 
-        while(array[middle] != target){
+        while(left <= right){
             if (array[middle] < target){
                 left = middle + 1;
                 middle =  (left + right)/2;
@@ -41,8 +41,8 @@ public class BinarySearch {
                     int[] newArray = new int[middle-1];
                     for (int i = 0; i < newArray.length; i++){
                         newArray[i] = array[i];
-                        return recursion(newArray,target);
                     }
+                    return recursion(newArray,target);
                 }
             }
         }
