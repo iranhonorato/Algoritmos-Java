@@ -44,18 +44,21 @@ public class DFS {
     public boolean dfs(boolean[][] mapa, int i, int j, ArrayList<Posicao> caminho, boolean[][] visitado) {
         Posicao position = new Posicao(i, j);
 
+        // Verifica se ele está dentro dos limites do mapa
         if (i < 0 || i >= mapa.length) {return true;}
         if (j < 0 || j >= mapa[i].length) {return true;}
 
-
+        // Se visitado[i][j] == true então retorna false (evita de voltar em lugares já visitados)
         if (visitado[i][j]) {
             return false;
         }
 
+        // Se mapa[i][j] == false então retorna false (evita de ele visitar lugares poribidos como paredes)
         if (!mapa[i][j]) {
             return false;
         }
 
+        // Põe 'true' onde já foi visitado
         visitado[i][j] = true;
         caminho.add(position);
 
