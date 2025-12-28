@@ -11,8 +11,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        char letra = 'A';
-        letra++;
-        System.out.println(letra);
+        int[] prices = {69,91,78,19,40,13};
+        Arrays.sort(prices);
+        System.out.println(Arrays.toString(prices));
     }
 }
