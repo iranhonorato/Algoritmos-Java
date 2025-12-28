@@ -58,4 +58,62 @@ public class Problems {
 
         return longest;
     }
+
+    // Leetcode problem 26
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+
+        int i = 0;
+
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i + 1;
+    }
+
+    // Leetcode problem 34
+    public int[] searchRange(int[] nums, int target) {
+        int[] result = {-1,-1};
+        if (nums.length == 0) {
+            return result;
+        }
+        int firstPointer;
+        int lastPointer;
+
+        int left = 0;
+        int right = nums.length - 1;
+
+        while (left <= right) {
+            int mid = (right + left)/2;
+            if (nums[mid] == target) {
+                firstPointer = mid;
+                lastPointer = mid;
+
+                result[0] = firstPointer;
+                result[1] = lastPointer;
+
+                while (firstPointer >= 0 && nums[firstPointer] == target) {
+                    result[0] = firstPointer;
+                    firstPointer--;
+                }
+                while (lastPointer < nums.length && nums[lastPointer] == target) {
+                    result[1] = lastPointer;
+                    lastPointer++;
+                }
+
+                break;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return result;
+
+    }
 }
