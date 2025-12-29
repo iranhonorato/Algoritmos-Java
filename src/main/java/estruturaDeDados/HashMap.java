@@ -1,8 +1,6 @@
 package estruturaDeDados;
 
-import java.util.HashMap;
-
-public class HashMaps {
+public class HashMap {
 
     public static void main(String[] args) {
 
@@ -15,7 +13,7 @@ public class HashMaps {
 //      Cada chave é única, mas valores podem se repetir.
 
     //      Por exemplo:
-    HashMap<String, Integer> idades = new HashMap<>();
+    java.util.HashMap<String, Integer> idades = new java.util.HashMap<>();
 //    String → tipo da chave
 //    Integer → tipo do valor
     idades.put("Ana", 25);
